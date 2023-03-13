@@ -80,16 +80,16 @@
 		73CEC9E225EE0A8F008362CE /* Wiggles-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				73CECA3325EE4158008362CE /* 3. UI & Model Details */,
-				73CECA2E25EE3A5D008362CE /* 2. Data */,
-				73CECA2725EE3154008362CE /* 1. Model */,
-				73CECA1A25EE1FD0008362CE /* UI - Home */,
-				73CEC9F325EE0AD2008362CE /* UI - Helpers */,
+				73CECA3325EE4158008362CE /* Details */,
+				73CECA2E25EE3A5D008362CE /* Data */,
+				73CECA2725EE3154008362CE /* Model */,
+				73CECA1A25EE1FD0008362CE /* Home */,
+				73CECA0025EE15D8008362CE /* sailec */,
+				73CEC9F325EE0AD2008362CE /* Helpers */,
 				73CEC9E325EE0A8F008362CE /* Wiggles_iOSApp.swift */,
 				73CEC9E525EE0A8F008362CE /* ContentView.swift */,
 				73CEC9E725EE0A92008362CE /* Assets.xcassets */,
 				73CEC9EC25EE0A92008362CE /* Info.plist */,
-				73CECA0025EE15D8008362CE /* sailec */,
 				73CEC9E925EE0A92008362CE /* Preview Content */,
 				73CEC9FA25EE1416008362CE /* Configs.swift */,
 			);
@@ -104,14 +104,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		73CEC9F325EE0AD2008362CE /* UI - Helpers */ = {
+		73CEC9F325EE0AD2008362CE /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				73CEC9F425EE0B0A008362CE /* ColorExtension.swift */,
 				73CEC9F725EE13BD008362CE /* Models.swift */,
 				73CEC9FD25EE15D0008362CE /* SailecFontModifier.swift */,
 			);
-			path = "UI - Helpers";
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		73CECA0025EE15D8008362CE /* sailec */ = {
@@ -124,39 +124,39 @@
 			path = sailec;
 			sourceTree = "<group>";
 		};
-		73CECA1A25EE1FD0008362CE /* UI - Home */ = {
+		73CECA1A25EE1FD0008362CE /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				73CECA1B25EE1FE1008362CE /* HomeView.swift */,
 				73CECA2025EE304E008362CE /* HomeViewModel.swift */,
 			);
-			path = "UI - Home";
+			path = Home;
 			sourceTree = "<group>";
 		};
-		73CECA2725EE3154008362CE /* 1. Model */ = {
+		73CECA2725EE3154008362CE /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				73CECA2825EE316F008362CE /* DogModel.swift */,
 				73CECA2B25EE31B8008362CE /* OwnerModel.swift */,
 			);
-			path = "1. Model";
+			path = Model;
 			sourceTree = "<group>";
 		};
-		73CECA2E25EE3A5D008362CE /* 2. Data */ = {
+		73CECA2E25EE3A5D008362CE /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				73CECA2F25EE3A76008362CE /* DogData.swift */,
 			);
-			path = "2. Data";
+			path = Data;
 			sourceTree = "<group>";
 		};
-		73CECA3325EE4158008362CE /* 3. UI & Model Details */ = {
+		73CECA3325EE4158008362CE /* Details */ = {
 			isa = PBXGroup;
 			children = (
 				73CECA3425EE416C008362CE /* DetailsView.swift */,
 				73E4B4D825EE75B10020C282 /* DetailsViewModel.swift */,
 			);
-			path = "3. UI & Model Details";
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
